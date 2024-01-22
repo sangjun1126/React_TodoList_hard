@@ -5,6 +5,9 @@ import Main from "./Main";
 import Product from "./Product";
 import NotFound from "./NotFound";
 import App from "../App";
+import Clock from "../sople/Clock";
+import CommentList from "../sople/CommentList";
+import NotificationList from "../sople/NotificationList";
 
 const Routing = () => {
   return (
@@ -16,6 +19,9 @@ const Routing = () => {
           <Route path="/product/*" element={<Product />}></Route>
           <Route path="*" element={<NotFound />}></Route>
           <Route path="/todo_list" element={<App />}></Route>
+          <Route path="/clock" element={<Clock />}></Route>
+          <Route path="/CommentList" element={<CommentList />}></Route>
+          <Route path="/notify" element={<NotificationList />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
