@@ -8,6 +8,7 @@ import App from "../App";
 import Clock from "../sople/Clock";
 import CommentList from "../sople/CommentList";
 import NotificationList from "../sople/NotificationList";
+import Accommodate from "../sople/Accommodate";
 
 const Routing = () => {
   return (
@@ -22,6 +23,7 @@ const Routing = () => {
           <Route path="/clock" element={<Clock />}></Route>
           <Route path="/CommentList" element={<CommentList />}></Route>
           <Route path="/notify" element={<NotificationList />}></Route>
+          <Route path="/hooks" element={<Accommodate />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

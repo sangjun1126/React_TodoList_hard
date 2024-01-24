@@ -27,6 +27,11 @@ const Main = (props) => {
             <button className="button">알림 창 보러가기(state)</button>
           </li>
         </Link>
+        <Link to="/hooks">
+          <li>
+            <button className="button">hooks 미니 프로젝트</button>
+          </li>
+        </Link>
       </ul>
     </div>
   );
