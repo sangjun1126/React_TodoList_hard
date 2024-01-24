@@ -32,6 +32,35 @@ const Main = (props) => {
             <button className="button">hooks 미니 프로젝트</button>
           </li>
         </Link>
+        <Link to="/confirm">
+          <li>
+            <button className="button">확인 버튼 만들기 (컴포넌트 비교)</button>
+          </li>
+        </Link>
+
+        <Link to="/LandingPage">
+          <li>
+            <button className="button">미니 로그인 구현</button>
+          </li>
+        </Link>
+
+        <Link to="/Attendance">
+          <li>
+            <button className="button">미니 출석부 구현하기</button>
+          </li>
+        </Link>
+
+        <Link to="/signup">
+          <li>
+            <button className="button">회원가입 구현하기</button>
+          </li>
+        </Link>
+
+        <Link to="/calculate">
+          <li>
+            <button className="button">섭씨 화씨 구현하기</button>
+          </li>
+        </Link>
       </ul>
     </div>
   );
