@@ -61,6 +61,18 @@ const Main = (props) => {
             <button className="button">섭씨 화씨 구현하기</button>
           </li>
         </Link>
+
+        <Link to="/card">
+          <li>
+            <button className="button">카드 컴포넌트 구현하기</button>
+          </li>
+        </Link>
+
+        <Link to="/theme">
+          <li>
+            <button className="button">테마 흑백 변경하기</button>
+          </li>
+        </Link>
       </ul>
     </div>
   );

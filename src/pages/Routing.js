@@ -14,6 +14,8 @@ import LandingPage from "../sople/LandingPage";
 import AttendanceBook from "../sople/AttendanceBook";
 import Signup from "../sople/Signup";
 import Calculator from "../sople/Calculator";
+import ProfileCard from "../sople/ProfileCard";
+import DarkOrLight from "../sople/DarkOrLight";
 
 const Routing = () => {
   return (
@@ -34,6 +36,8 @@ const Routing = () => {
           <Route path="/Attendance" element={<AttendanceBook />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/calculate" element={<Calculator />}></Route>
+          <Route path="/card" element={<ProfileCard />}></Route>
+          <Route path="/theme" element={<DarkOrLight />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
