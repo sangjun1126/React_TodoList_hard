@@ -15,6 +15,7 @@ import Signup from "../sople/Signup";
 import Calculator from "../sople/Calculator";
 import ProfileCard from "../sople/ProfileCard";
 import DarkOrLight from "../sople/DarkOrLight";
+import Blocks from "../sople/Blocks";
 
 const Routing = () => {
   return (
@@ -36,6 +37,7 @@ const Routing = () => {
           <Route path="/calculate" element={<Calculator />}></Route>
           <Route path="/card" element={<ProfileCard />}></Route>
           <Route path="/theme" element={<DarkOrLight />}></Route>
+          <Route path="/block" element={<Blocks />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

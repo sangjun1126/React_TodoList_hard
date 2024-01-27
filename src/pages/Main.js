@@ -27,6 +27,7 @@ const Main = (props) => {
         <ButtonLink to="/calculate">섭씨 화씨 구현하기</ButtonLink>
         <ButtonLink to="/card">카드 컴포넌트 구현하기</ButtonLink>
         <ButtonLink to="/theme">테마 흑백 변경하기</ButtonLink>
+        <ButtonLink to="/block">스타일 컴포넌트 만들어보기</ButtonLink>
       </ul>
     </div>
   );
